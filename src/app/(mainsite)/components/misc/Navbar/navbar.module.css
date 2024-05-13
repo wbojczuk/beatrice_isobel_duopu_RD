@@ -268,6 +268,10 @@
 
 /* TABLET + MOBILE STYLES */
 @media only screen and (max-width: 990px){
+
+    .navLink::after{
+      height: 2px;
+    }
     .topBarText{
         display: none;
     }
@@ -298,9 +302,7 @@
         width: 90%;
         padding: 1vw 5%;
     }
-    .navLink.active::after{
-        width: 20%;
-    }
+
     
     .logo span{
         padding-left: 1vw;
@@ -308,7 +310,7 @@
     }
     .logoImg{
         width: 30vw;
-        height: 8vw;
+        height: 10vw;
     }
     
     .links a{
@@ -326,7 +328,7 @@
     
     .links span{
         padding-left: 0.2vw;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     
     .navLink li, .dropdownLink, .cta{
@@ -339,7 +341,7 @@
         right: 0;
         top: 100%;
         padding: 2vw;
-        background-color: #000;
+        background-color: white;
         border-top: 2px solid var(--primary-color);
         box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
         transform-origin: top;
@@ -436,14 +438,20 @@
  
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
+
+    .links span{
+        margin-top: 1vw;
+        /* padding-left: 0.2vw; */
+        font-size: 1.8rem;
+    }
     
     .logo span{
         padding-left: 2vw;
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .logoImg{
         width: 30vw;
-        height: 10vw;
+        height: 15vw;
     }
     .noIcon{
         height: 5vw;
@@ -456,9 +464,9 @@
         width: 5vw;
         height: 5vw;
     }
-    .navLink.active::after{
-        width: 10%;
-    }
+    .navLink::after{
+        display: none;
+      }
 
     .topBar{
         padding: 1vw 0;
@@ -495,7 +503,7 @@
         transition: color 0.3s;
         cursor: pointer;
         padding: 2.5vw 0;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         border-bottom: 1px solid rgba(0,0,0,0.1);
     }
     
@@ -516,11 +524,11 @@
     }
     
     .dropdownLink ul li{
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
     
     .dropdownLink ul a{
-        padding: 2.5vw;
+        padding: 3vw;
     }
 
     .links a.cta{

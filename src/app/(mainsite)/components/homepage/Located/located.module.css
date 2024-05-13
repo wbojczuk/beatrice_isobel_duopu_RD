@@ -28,10 +28,27 @@
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
-
+    .content h3{
+        font-size: 2.2rem;
+    }
 }
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-
+    .content{
+        gap: 2vw;
+    }
+    
+    
+    .content svg{
+        width: 15vw;
+        height: 15vw;
+        flex: none;
+    }
+    
+    .content h3{
+        font-size: 2.5rem;
+        display: inline-block;
+        width: 80%;
+    }
 }

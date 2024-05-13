@@ -31,10 +31,21 @@
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
-
+    .apply h2{
+        font-size: 4.3rem;
+        margin-bottom: 4vw;
+    }
 }
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-
+    .apply h2{
+        font-size: 4.5rem;
+        margin-bottom: 6vw;
+    }
+    
+    .apply::after{
+        left: 40%;
+        width: 20%;
+    }
 }

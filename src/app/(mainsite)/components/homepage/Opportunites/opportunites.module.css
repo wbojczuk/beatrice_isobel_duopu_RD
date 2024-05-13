@@ -39,10 +39,44 @@
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
-
+    .opportunites{
+        gap: 3vw
+    }
+    
+    .opportunites h3{
+        font-size: 4rem;
+    }
+    
+    .opportunites h3::after{
+         top: -3vw;
+         left: calc(50% - 6vw);
+         width: 12vw;
+    }
+    
+    .opportunites p{
+        font-size: 1.6rem;
+        width: 55%;
+    }
 }
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-
+    .opportunites{
+        gap: 6vw
+    }
+    
+    .opportunites h3{
+        font-size: 3rem;
+    }
+    
+    .opportunites h3::after{
+         top: -6vw;
+         left: calc(50% - 10vw);
+         width: 20vw;
+    }
+    
+    .opportunites p{
+        font-size: 1.6rem;
+        width: 65%;
+    }
 }

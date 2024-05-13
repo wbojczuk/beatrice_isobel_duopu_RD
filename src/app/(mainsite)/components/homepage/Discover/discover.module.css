@@ -25,10 +25,25 @@
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
-
+    .discover h3{
+        font-size: 2rem;
+    }
+    
+    .buttonWrapper{
+        margin-top: 4vw;
+        gap: 3vw;
+    }
 }
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-
+    .discover h3{
+        font-size: 2.5rem;
+    }
+    
+    .buttonWrapper{
+        margin-top: 6vw;
+        gap: 5vw;
+        flex-wrap: wrap;
+    }
 }

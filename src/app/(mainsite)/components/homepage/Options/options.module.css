@@ -54,5 +54,30 @@
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-
+    .options{
+        flex-direction: column;
+        gap: 6vw;
+    }
+    
+    .option{
+        width: 50%;
+        margin: 0 2.5%;
+        padding: 2.5%;
+    }
+    
+    .mainSvg{
+        width: 16vw;
+        height: 16vw;
+        margin-bottom: 5vw;
+    }
+    
+    .option h3{
+        font-size:3rem;
+    }
+    
+    .option a{
+        font-size: 1.6rem;
+        gap: 0.4vw;
+        margin-top: 1.5vw;
+    }
 }
