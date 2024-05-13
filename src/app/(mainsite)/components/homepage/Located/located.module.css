@@ -1,0 +1,37 @@
+.located{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    color: var(--secondary-text-color);
+}
+
+
+.content svg{
+    width: 6vw;
+    height: 6vw;
+}
+
+.content h3{
+    font-size: 2.5rem;
+}
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+
+}

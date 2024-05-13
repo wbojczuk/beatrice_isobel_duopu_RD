@@ -1,0 +1,34 @@
+.discover{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+}
+
+.discover h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.buttonWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
+    gap: 2vw;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+
+}
