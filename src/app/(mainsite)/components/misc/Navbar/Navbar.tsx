@@ -22,7 +22,8 @@ export default function Navbar() {
   const homeRef: any = useRef()
   const aboutRef: any = useRef()
   const contactRef: any = useRef()
-  const programsRef: any = useRef()
+  const curriculumRef: any = useRef()
+  const activitiesRef: any = useRef()
   const visitRef: any = useRef()
 
   const hamburgerRef: any = useRef()
@@ -44,8 +45,12 @@ export default function Navbar() {
       ref: contactRef
     },
     {
-      triggers: ["/programs"],
-      ref: programsRef
+      triggers: ["/curriculum"],
+      ref: curriculumRef
+    },
+    {
+      triggers: ["/activities"],
+      ref: activitiesRef
     },
     {
       triggers: ["/visit"],
@@ -195,35 +200,36 @@ export default function Navbar() {
           <NavOption
           title="Home"
           url="/"
-          
           ref={homeRef}
           />
 
           <NavOption
           title="About"
           url="/about"
-         
           ref={aboutRef}
           />
 
           <NavOption
-          title="Programs"
-          url="/programs"
-          
-          ref={programsRef}
+          title="Curriculums"
+          url="/curriculum"
+          ref={curriculumRef}
+          />
+
+          <NavOption
+          title="Activities"
+          url="/activities"
+          ref={activitiesRef}
           />
 
           <NavOption
           title="Contact"
           url="/contact"
-          
           ref={contactRef}
           />
 
-<NavOption
+          <NavOption
           title="Visit"
           url="/visit"
-          
           ref={visitRef}
           />
           
