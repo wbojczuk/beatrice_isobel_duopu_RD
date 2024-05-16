@@ -1,0 +1,78 @@
+.curriculumHeader{
+    position: relative;
+    padding: calc(var(--section-padding-top) * 1.5) 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curriculumWrapper{
+    width: 85%;
+    padding: 3vw 2vw;
+    background-color: rgba(255,255,255,.94);
+    position: relative;
+}
+
+.curriculumWrapper::after{
+     content: '';
+     display: inline-block;
+     position: absolute;
+     top: -9px;
+     left: 35%;
+     width: 30%;
+     height: 18px;
+     background-color: var(--primary-color);
+}
+
+.curriculumHeader h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.curriculumHeader p {
+    padding: 2vw 5% 0 5%;
+    font-size: 1.1rem;
+    line-height: 200%;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .curriculumWrapper{
+        width: 90%;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .curriculumHeader{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: calc(var(--section-padding-top) * 2.5) 2%;
+    }
+    
+    .curriculumWrapper{
+        width: 95%;
+        padding: 10vw 4vw;
+    }
+    
+    .curriculumWrapper::after{
+         left: 30%;
+         width: 40%;
+    }
+    
+    .curriculumHeader h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+    
+    .curriculumHeader p {
+        padding: 4vw 5% 0 5%;
+    }
+}
