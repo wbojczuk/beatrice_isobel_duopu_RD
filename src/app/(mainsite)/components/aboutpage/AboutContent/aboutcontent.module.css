@@ -1,11 +1,14 @@
 .aboutContent{
     position: relative;
     padding: calc(var(--section-padding-top) * 1.5) 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .aboutWrapper{
-    width: 36%;
-    padding: 5vw 2vw;
+    width: 80%;
+    padding: 3vw 2vw;
     background-color: rgba(255,255,255,.94);
     position: relative;
 }
@@ -41,7 +44,7 @@
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
     .aboutWrapper{
-        width: 50%;
+        width: 90%;
     }
 }
 
@@ -51,11 +54,11 @@
        display: flex;
        align-items: center;
        justify-content: center;
-       padding: calc(var(--section-padding-top) * 2.5) 10%;
+       padding: calc(var(--section-padding-top) * 2.5) 2%;
     }
     
     .aboutWrapper{
-        width: 82%;
+        width: 95%;
         padding: 10vw 4vw;
     }
     
