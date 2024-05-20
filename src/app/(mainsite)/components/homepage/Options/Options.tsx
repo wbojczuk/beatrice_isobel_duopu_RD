@@ -12,7 +12,7 @@ return (
 
         <h3>Maths</h3>
         
-        <Link href='/programs#maths'>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 11h11.586l-4.5-4.5L13 5.086L19.914 12L13 18.914L11.586 17.5l4.5-4.5H4.5z"></path></svg></Link>
+        <Link href='/curriculum#maths'>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 11h11.586l-4.5-4.5L13 5.086L19.914 12L13 18.914L11.586 17.5l4.5-4.5H4.5z"></path></svg></Link>
     </div>
 
     <div className={styles.option}>
@@ -20,7 +20,7 @@ return (
 
         <h3>Arts</h3>
         
-        <Link href='/programs#arts'>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 11h11.586l-4.5-4.5L13 5.086L19.914 12L13 18.914L11.586 17.5l4.5-4.5H4.5z"></path></svg></Link>
+        <Link href='/curriculum#arts'>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 11h11.586l-4.5-4.5L13 5.086L19.914 12L13 18.914L11.586 17.5l4.5-4.5H4.5z"></path></svg></Link>
     </div>
 
     <div className={styles.option}>
@@ -28,7 +28,7 @@ return (
 
         <h3>Reading</h3>
         
-        <Link href='/programs#reading'>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 11h11.586l-4.5-4.5L13 5.086L19.914 12L13 18.914L11.586 17.5l4.5-4.5H4.5z"></path></svg></Link>
+        <Link href='/curriculum#reading'>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 11h11.586l-4.5-4.5L13 5.086L19.914 12L13 18.914L11.586 17.5l4.5-4.5H4.5z"></path></svg></Link>
     </div>
 
     <div className={styles.option}>
@@ -36,7 +36,7 @@ return (
 
         <h3>Playing and Problem Solving</h3>
         
-        <Link href='/programs#patriotism'>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 11h11.586l-4.5-4.5L13 5.086L19.914 12L13 18.914L11.586 17.5l4.5-4.5H4.5z"></path></svg></Link>
+        <Link href='/curriculum#patriotism'>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 11h11.586l-4.5-4.5L13 5.086L19.914 12L13 18.914L11.586 17.5l4.5-4.5H4.5z"></path></svg></Link>
     </div>
  
     <img src='/img/options.png' alt='Image of painted wall' className='bg-img' />
